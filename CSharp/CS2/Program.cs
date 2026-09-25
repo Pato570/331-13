@@ -1,43 +1,21 @@
-﻿using System
-// Espacio de nombres
-namespace Name
-{
+﻿using System; 
 
-}namespace CS2
-{
-    // Clase Principal
-    class Program
-    {
-        //Funcion principal
-        static void Main(string[] args)
-        {
+namespace CS2 { // Espacio de nombres
+    class Program { // Clase principal
+        static void Main(string[] args){ // Funcion principal
             // Sesión 5: Tipos de datos
-            // Sintaxis para declarar variables
-            //tipo_de_dato identificador_variable;
-            // 1. Entero
-            int a;
-            // 2. Cadena de texto
-            string s;
-            // 3.1 Flotante (precisión sencilla)
-            float f;
-            // 3.2 Flotante (precisión doble)   
-            double d;
-            // 4. Booleano (lógico)
-            bool b;
-            // Inicializaciones
-            a = 5;
-            s = "Exactas";
-            f = 8.5F;
-            d = 9.5;
-            b = true;
-            // Palabra reservada: Identificador especial predefinido para el compliador
-            //Interpolación: Combinación de datos dentro de una cadena
-            // Impresiones
-            Console.WriteLine($"Entero: {a}");
-            Console.WriteLine($"Flotante (precisón sencilla): {f}")
-            Console.WriteLine($"Flotante (precisón doble): {d}")
-            Console.WriteLine($"Cadena de texto: {5}")
-            Console.WriteLine($"Booleano: {b}")
-        }//Término de la función principal    
-    }// Término de la clase principal
-}//Término del espacio de nombres
+            // Sintaxis para declarar variables: " tipo de dato " "nombre de la variable" = " valor de la variable "
+            int numero = 5;
+            string nombre = "Rodrigo";
+            bool estado = true; // Palabra reservada: Identificador especial predefinido para el compilador
+            float flotante = 1.3F;
+            double doble = 1.5D;
+
+            Console.WriteLine($"Variable numero: {numero}");
+            Console.WriteLine($"Variable nombre: {nombre}");
+            Console.WriteLine($"Variable bool: {estado}");
+            Console.WriteLine($"Variable flotante: {flotante}");
+            Console.WriteLine($"Variable double: {doble}");
+        } // Termino de la funcion principal
+    } // Termino de la clase principal
+} // Termino de espacio de nombres
